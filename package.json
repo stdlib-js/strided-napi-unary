@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-napi-unary",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "description": "C API for registering an N-API module exporting a strided array interface for applying a unary callback to an input strided array.",
   "license": "Apache-2.0",
   "author": {
