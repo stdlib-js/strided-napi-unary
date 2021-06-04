@@ -36,11 +36,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/strided/base/function-object": "^0.0.x",
-    "@stdlib/strided/base/unary": "^0.0.x",
-    "@stdlib/strided/dtypes": "^0.0.x",
-    "@stdlib/strided/napi/addon-arguments": "^0.0.x",
-    "@stdlib/utils/library-manifest": "^0.0.x"
+    "@stdlib/strided-base-function-object": "^0.0.x",
+    "@stdlib/strided-base-unary": "^0.0.x",
+    "@stdlib/strided-dtypes": "^0.0.x",
+    "@stdlib/strided-napi-addon-arguments": "^0.0.x",
+    "@stdlib/utils-library-manifest": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.0.x",
