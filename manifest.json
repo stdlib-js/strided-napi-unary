@@ -33,10 +33,10 @@
 			"libraries": [],
 			"libpath": [],
 			"dependencies": [
-				"@stdlib/strided/base/function-object",
-				"@stdlib/strided/base/unary",
-				"@stdlib/strided/dtypes",
-				"@stdlib/strided/napi/addon-arguments"
+				"@stdlib/strided-base-function-object",
+				"@stdlib/strided-base-unary",
+				"@stdlib/strided-dtypes",
+				"@stdlib/strided-napi-addon-arguments"
 			]
 		}
 	]
