@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> C API for registering an N-API module exporting a strided array interface for applying a unary callback to an input strided array.
+> C API for registering a Node-API module exporting a strided array interface for applying a unary callback to an input strided array.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -141,11 +141,11 @@ static const struct StridedFunctionObject obj = {...};
 // ...
 
 /**
-* Receives JavaScript callback invocation data via N-API.
+* Receives JavaScript callback invocation data.
 *
 * @param env    environment under which the function is invoked
 * @param info   callback data
-* @return       N-API value
+* @return       Node-API value
 */
 napi_value addon( napi_env env, napi_callback_info info ) {
     stdlib_strided_napi_unary( env, info, &obj );
@@ -167,7 +167,7 @@ void stdlib_strided_napi_unary( napi_env env, napi_callback_info info, const str
 
 #### STDLIB_STRIDED_NAPI_MODULE_UNARY( obj )
 
-Macro for registering an N-API module exporting a strided array interface for applying a unary callback to an input strided array.
+Macro for registering a Node-API module exporting a strided array interface for applying a unary callback to an input strided array.
 
 ```c
 #include "stdlib/strided/base/function_object.h"
@@ -179,7 +179,7 @@ static const struct StridedFunctionObject obj = {...};
 
 // ...
 
-// Register an N-API module:
+// Register a Node-API module:
 STDLIB_STRIDED_NAPI_MODULE_UNARY( obj );
 ```
 
@@ -187,7 +187,7 @@ The macro expects the following arguments:
 
 -   **obj**: `struct StridedFunctionObject` strided array [function object][@stdlib/strided/base/function-object].
 
-When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring N-API module registration.
+When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring Node-API module registration.
 
 </section>
 
