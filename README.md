@@ -202,10 +202,10 @@ When used, this macro should be used **instead of** `NAPI_MODULE`. The macro inc
 -   The function expects that the callback `info` argument provides access to the following JavaScript arguments:
 
     -   `N`: number of indexed elements.
-    -   `dtypeX`: `X` data type (enumerated integer).
+    -   `dtypeX`: `X` [data type][@stdlib/strided/dtypes] (enumerated integer).
     -   `X`: input [typed array][mdn-typed-array].
     -   `strideX`: `X` stride length.
-    -   `dtypeY`: `Y`  data type (enumerated integer).
+    -   `dtypeY`: `Y`  [data type][@stdlib/strided/dtypes] (enumerated integer).
     -   `Y`: destination [typed array][mdn-typed-array].
     -   `strideY`: `Y` stride length.
 
@@ -301,6 +301,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@stdlib/strided/base/function-object]: https://github.com/stdlib-js/strided-base-function-object
+
+[@stdlib/strided/dtypes]: https://github.com/stdlib-js/stdlib
 
 </section>
 
