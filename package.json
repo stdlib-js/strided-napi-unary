@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-napi-unary",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "C API for registering a Node-API module exporting a strided array interface for applying a unary callback to an input strided array.",
   "license": "Apache-2.0",
   "author": {
@@ -41,20 +41,20 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/strided-base-function-object": "^0.0.x",
-    "@stdlib/strided-base-unary": "^0.0.x",
-    "@stdlib/strided-dtypes": "^0.0.x",
-    "@stdlib/strided-napi-addon-arguments": "^0.0.x",
-    "@stdlib/utils-library-manifest": "^0.0.x"
+    "@stdlib/strided-base-function-object": "^0.1.0",
+    "@stdlib/strided-base-unary": "^0.1.0",
+    "@stdlib/strided-dtypes": "^0.1.0",
+    "@stdlib/strided-napi-addon-arguments": "^0.1.0",
+    "@stdlib/utils-library-manifest": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.0.x",
-    "@stdlib/array-uint8": "^0.0.x",
-    "@stdlib/assert-is-browser": "^0.0.x",
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/math-base-assert-is-nan": "^0.0.x",
-    "@stdlib/strided-base-dtype-str2enum": "^0.0.x",
-    "@stdlib/utils-try-require": "^0.0.x",
+    "@stdlib/array-float64": "^0.1.0",
+    "@stdlib/array-uint8": "^0.1.0",
+    "@stdlib/assert-is-browser": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/strided-base-dtype-str2enum": "^0.1.0",
+    "@stdlib/utils-try-require": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
@@ -90,7 +90,7 @@
     }
   },
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
