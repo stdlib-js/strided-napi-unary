@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-napi-unary",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "C API for registering a Node-API module exporting a strided array interface for applying a unary callback to an input strided array.",
   "license": "Apache-2.0",
   "author": {
@@ -41,11 +41,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/strided-base-function-object": "^0.2.2",
+    "@stdlib/strided-base-function-object": "^0.2.3",
     "@stdlib/strided-base-unary": "^0.3.0",
     "@stdlib/strided-dtypes": "^0.3.0",
     "@stdlib/strided-napi-addon-arguments": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.2",
@@ -84,11 +84,6 @@
     "addon",
     "unary"
   ],
-  "__stdlib__": {
-    "envs": {
-      "browser": false
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
