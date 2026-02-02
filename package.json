@@ -41,10 +41,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/strided-base-function-object": "^0.2.3",
+    "@stdlib/strided-base-function-object": "^0.2.4",
     "@stdlib/strided-base-unary": "^0.3.0",
     "@stdlib/strided-dtypes": "^0.3.0",
-    "@stdlib/strided-napi-addon-arguments": "^0.2.2",
+    "@stdlib/strided-napi-addon-arguments": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
